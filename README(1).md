@@ -222,9 +222,8 @@ The detector response is approximated by
 ```math
 N_{\mathrm{PE}} = aE_{\mathrm{vis}} + b
 ```
-
-where ```math \(N_{\mathrm{PE}}\) ``` is the detected number of photoelectrons and
-'''math \(E_{\mathrm{vis}}\) ''' is the visible energy deposited in the detector.
+where `N_PE` is the detected number of photoelectrons and `E_vis` is the
+visible energy deposited in the detector.
 
 The visible energy is reconstructed as
 
