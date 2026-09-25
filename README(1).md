@@ -219,10 +219,7 @@ associated with each simulated IBD event.
 
 Starting from
 
-$$
-N_{\mathrm{PE}} = aE_{\mathrm{vis}} + b,
-$$
-
+N_{\mathrm{PE}} = aE_{\mathrm{vis}} + b
 the visible energy is reconstructed as
 
 $$
