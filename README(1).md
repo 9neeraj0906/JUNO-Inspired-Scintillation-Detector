@@ -217,17 +217,22 @@ photoelectron signal propagate into the reconstructed energy.
 The calibrated detector response is used to reconstruct the visible energy
 associated with each simulated IBD event.
 
-Starting from
+The detector response is approximated by
 
+```math
 N_{\mathrm{PE}} = aE_{\mathrm{vis}} + b
-the visible energy is reconstructed as
+```
 
-$$
+where \(N_{\mathrm{PE}}\) is the detected number of photoelectrons and
+\(E_{\mathrm{vis}}\) is the visible energy deposited in the detector.
+
+The visible energy is reconstructed as
+
+```math
 E_{\mathrm{vis}}^{\mathrm{rec}}
 =
 \frac{N_{\mathrm{PE}}-b}{a}.
-$$
-
+```
 A simplified relation between visible energy and neutrino energy is then used:
 
 $$
